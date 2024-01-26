@@ -1,7 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 10 10;
+	max-width: 100%;
+	alignment: center;
+    margin: 0 auto;
     padding: 0;
+	padding-bottom: 60px; /* Adjust this value based on your footer height */
 }
 
 header {
@@ -38,6 +41,16 @@ section {
     display: block;
     margin: 0 auto;
 }
+
+.red-text {
+    color: red;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
 footer {
     background-color: #333;
     color: #fff;
